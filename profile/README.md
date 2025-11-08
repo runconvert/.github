@@ -15,48 +15,6 @@ RunConvert is built as a distributed system with multiple specialized services:
 | **Redis**      | Caching and session management           | Redis                      | 6379     |
 | **Proxy**      | Load balancing and SSL termination       | Nginx                      | 443/80   |
 
-## Supported File Formats
-
-### Document Formats
-
-| Input                          | Output Formats                                     |
-| ------------------------------ | -------------------------------------------------- |
-| **PDF**                        | DOC, DOCX, RTF, TXT, HTML, Images (PNG, JPG, etc.) |
-| **Word** (DOC/DOCX)            | PDF, RTF, TXT, HTML, ODT, Images                   |
-| **Excel** (XLS/XLSX)           | PDF, CSV, ODS, HTML, Images                        |
-| **PowerPoint** (PPT/PPTX)      | PDF, ODP, Images, HTML                             |
-| **OpenDocument** (ODT/ODS/ODP) | PDF, Microsoft Office formats, Images              |
-
-### Image Formats
-
-| Category   | Supported Formats                         |
-| ---------- | ----------------------------------------- |
-| **Raster** | PNG, JPG/JPEG, GIF, BMP, TIFF, WebP, AVIF |
-| **Vector** | SVG, EPS, PS, PDF, AI, EMF, WMF           |
-| **Raw**    | CR2, NEF, ARW, DNG, RAW                   |
-
-### Video & Audio Formats
-
-| Type      | Input/Output Formats                           |
-| --------- | ---------------------------------------------- |
-| **Video** | MP4, AVI, MOV, MKV, WebM, FLV, 3GP, WMV, M4V   |
-| **Audio** | MP3, WAV, FLAC, AAC, OGG, M4A, AIFF, WMA, OPUS |
-
-### CAD & Technical Formats
-
-| Format              | Supported Conversions          |
-| ------------------- | ------------------------------ |
-| **AutoCAD**         | DWG, DXF to PDF, SVG, PNG, JPG |
-| **Vector Graphics** | AI, EPS, SVG, PDF conversions  |
-
-### Archive & Other Formats
-
-| Category     | Formats               |
-| ------------ | --------------------- |
-| **Archives** | ZIP, RAR, 7Z, TAR, GZ |
-| **E-books**  | EPUB, MOBI, PDF, FB2  |
-| **Fonts**    | TTF, OTF, WOFF, WOFF2 |
-
 ## Key Features
 
 ### Conversion Capabilities
