@@ -2,6 +2,15 @@
 
 RunConvert is a high-performance, cloud-native file conversion service built with Go that supports a wide range of file formats including documents, images, videos, audio files, CAD drawings, and more. The platform provides enterprise-grade conversion capabilities with team management, billing integration, and scalable microservices architecture.
 
+## Global Infrastructure
+
+RunConvert is deployed across multiple regions for optimal performance and reliability:
+
+| Provider         | Region                   | Instance Type               |
+| ---------------- | ------------------------ | --------------------------- |
+| **Oracle Cloud** | US West (San Jose)       | oracle-us-sanjose-1-arm64   |
+| **Oracle Cloud** | Asia Pacific (Melbourne) | oracle-ap-melbourne-1-arm64 |
+
 ## Architecture Overview
 
 RunConvert is built as a distributed system with multiple specialized services:
