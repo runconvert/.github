@@ -338,7 +338,7 @@ Strict-Transport-Security: max-age=31536000
 - **Documentation**: [docs.runconvert.com](https://docs.runconvert.com)
 - **API Reference**: [api.runconvert.com/docs](https://api.runconvert.com/docs)
 - **Status Page**: [status.runconvert.com](https://status.runconvert.com)
-- **Support Email**: support@runconvert.com
+- **Support Email**: info@runconvert.com
 
 ### Contributing
 
