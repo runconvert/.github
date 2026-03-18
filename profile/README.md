@@ -52,6 +52,18 @@ RunConvert is built as a distributed system with multiple specialized services:
 
 ## API Documentation
 
+## Generate Private and public keys
+
+All services are secured from private and public keys there for need to generate keys for every tenant
+
+```bash
+# Generate Private key
+ openssl ecparam -name prime256v1 -genkey -noout -out runconvert_private.key
+
+# Generate Public key
+openssl ec -in runconvert_private.key -pubout -out runconvert_public.key
+```
+
 ### Authentication
 
 All API requests require authentication via JWT tokens or API keys.
